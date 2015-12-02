@@ -1,0 +1,1 @@
+FineWeather is a demo weather application, where were used various Android components (Fragment, Service, Broadcast Receiver, Content Provider, Notifications, Loader, SyncAdapter, SharedPreferences, SQLite).
