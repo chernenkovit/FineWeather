@@ -7,25 +7,25 @@ import android.util.AttributeSet;
 import android.view.View;
 
 
-public class MyView extends View {
+public class Compass extends View {
     Paint paint;
     int myHeight;
     int myWidth;
     private float direction;
 
-    public MyView(Context context) {
+    public Compass(Context context) {
         super(context);
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     }
 
-    public MyView(Context context, AttributeSet attrs) {
+    public Compass(Context context, AttributeSet attrs) {
         super(context, attrs);
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     }
 
-    public MyView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public Compass(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 

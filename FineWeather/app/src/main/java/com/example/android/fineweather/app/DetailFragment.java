@@ -73,7 +73,7 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
     private TextView mHumidityView;
     private TextView mWindView;
     private TextView mPressureView;
-    private MyView mCompass;
+    private Compass mCompass;
 
     public DetailFragment() {
         setHasOptionsMenu(true);
@@ -98,7 +98,7 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
         mHumidityView = (TextView) rootView.findViewById(R.id.detail_humidity_textview);
         mWindView = (TextView) rootView.findViewById(R.id.detail_wind_textview);
         mPressureView = (TextView) rootView.findViewById(R.id.detail_pressure_textview);
-        mCompass=(MyView) rootView.findViewById(R.id.compass);
+        mCompass=(Compass) rootView.findViewById(R.id.compass);
         return rootView;
     }
 
